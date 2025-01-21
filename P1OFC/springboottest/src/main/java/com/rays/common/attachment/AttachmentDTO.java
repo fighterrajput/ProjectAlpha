@@ -11,7 +11,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 /**
  * Contains attached file information and data
- * Suraj Sahu 
+ * Ankit Singh 
  */
 
 @Entity

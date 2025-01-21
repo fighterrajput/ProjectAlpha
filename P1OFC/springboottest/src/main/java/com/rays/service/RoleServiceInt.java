@@ -7,7 +7,7 @@ import com.rays.dto.RoleDTO;
 /**
  * Role Service interface for role-related operations.
  * 
- * Suraj Sahu
+ * Ankit Singh
  */
 public interface RoleServiceInt extends BaseServiceInt<RoleDTO> {
 

@@ -6,7 +6,7 @@ import com.rays.exception.DuplicateRecordException;
 
 /**
  * Role Service interface.
- * Suraj Sahu
+ * Ankit Singh
  */
 
 public interface BaseServiceInt<T extends BaseDTO> {

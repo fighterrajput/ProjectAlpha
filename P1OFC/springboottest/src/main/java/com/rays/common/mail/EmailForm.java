@@ -4,7 +4,7 @@ import javax.validation.constraints.NotEmpty;
 
 /**
  * Contains Email data received from UI
- * Suraj Sahu 
+ * Ankit Singh 
  */
 public class EmailForm {
 

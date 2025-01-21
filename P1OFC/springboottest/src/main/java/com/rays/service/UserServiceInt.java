@@ -7,7 +7,7 @@ import com.rays.dto.UserDTO;
 /**
  * User Service interface for user-related operations.
  *
- * Suraj Sahu
+ * Ankit Singh
  */
 public interface UserServiceInt extends BaseServiceInt<UserDTO> {
 

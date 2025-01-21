@@ -22,7 +22,7 @@ import com.rays.dto.UserDTO;
 /**
  * Contains User CRUD operations
  * 
- * Suraj Sahu
+ * Ankit Singh
  *
  */
 @Repository

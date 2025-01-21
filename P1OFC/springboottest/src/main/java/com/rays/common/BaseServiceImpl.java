@@ -12,7 +12,7 @@ import com.rays.exception.DatabaseException;
 import com.rays.exception.DuplicateRecordException;
 
 /**
- * Suraj Sahu
+ * Ankit Singh
  * 
  * @param <T> the type of the DTO
  * @param <D> the type of the DAO

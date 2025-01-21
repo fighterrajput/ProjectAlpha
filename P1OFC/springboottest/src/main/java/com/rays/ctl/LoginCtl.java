@@ -33,7 +33,7 @@ import com.rays.service.UserServiceInt;
 
 /**
  * Login controller provides API for Sign Up, Sign In and Forgot password operations
- * Suraj Sahu
+ * Ankit Singh
  */
 @RestController
 @RequestMapping(value = "Auth")
@@ -50,7 +50,7 @@ public class LoginCtl extends BaseCtl<UserForm, UserDTO, UserServiceInt> {
 		// res.setSuccess(true);
 		res.addMessage("Logout Successfully");
 		// res.addResult("roleList", list);
-		System.out.println("Suraj Sahu logout");
+		System.out.println("Ankit Singh logout");
 		return res;
 	}
 
@@ -106,7 +106,7 @@ public class LoginCtl extends BaseCtl<UserForm, UserDTO, UserServiceInt> {
 	@PostMapping("/profilePic/{userId}")
 	public ORSResponse uploadPic(@PathVariable Long userId, @RequestParam("file") MultipartFile file,
 			HttpServletRequest req) {
-		System.out.println("User ID id --------------Suraj Sahu" + userId);
+		System.out.println("User ID id --------------Ankit Singh" + userId);
 		UserDTO userDTO = baseService.findById(userId, userContext);
 		AttachmentDTO doc = new AttachmentDTO(file);
 		doc.setDescription("Profile picture");

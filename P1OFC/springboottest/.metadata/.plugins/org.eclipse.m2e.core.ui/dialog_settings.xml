@@ -62,8 +62,6 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\ankit\OneDrive\Desktop\ProjectZen\Project_10\P1OFC\springboottest"/>
-			<item value="C:\Workspace\project10-workspace\project10\Project_10"/>
 			<item value="C:\Users\Admin\Desktop\pro10 fc\Project10\springboottest"/>
 			<item value="C:\Users\Administrator\Desktop\new"/>
 			<item value="C:\Users\Administrator\Desktop\docker\newp10"/>
@@ -78,9 +76,5 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.pom.overview">
-	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

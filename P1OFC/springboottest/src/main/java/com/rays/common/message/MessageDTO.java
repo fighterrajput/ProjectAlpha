@@ -15,7 +15,7 @@ import com.rays.common.BaseDTO;
  * Email/SMS Message class. Message subject and body contain placeholders.
  * Placeholders are defined inside subject/body with {0}, {1}, {2}, etc.
  * 
- * Suraj Sahu
+ * Ankit Singh
  */
 @Entity
 @Table(name = "ST_MESSAGE")

@@ -17,7 +17,7 @@ import com.rays.service.CollegeServiceInt;
 
 
 /**
- * Suraj Sahu 
+ * Ankit Singh 
  *
  */
 @RestController

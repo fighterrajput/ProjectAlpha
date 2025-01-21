@@ -38,7 +38,7 @@
 			<item key="ignoreCase" value="true"/>
 			<item key="isRegExSearch" value="false"/>
 			<item key="isWholeWord" value="false"/>
-			<item key="textPattern" value="Suraj Sahu"/>
+			<item key="textPattern" value="Ankit Singh"/>
 			<item key="scope" value="0"/>
 			<list key="fileNamePatterns">
 				<item value="*"/>
@@ -47,8 +47,7 @@
 			</list>
 		</section>
 		<section name="EXTENSIONS">
-			<item key="0" value=""/>
-			<item key="1" value="*"/>
+			<item key="0" value="*"/>
 		</section>
 	</section>
 	<section name="SearchDialog.ScopePart">
@@ -70,10 +69,6 @@
 	<section name="ReplaceDialog2">
 		<list key="replace_with">
 			<item value="Ankit Singh"/>
-			<item value="Suraj Sahu"/>
 		</list>
-	</section>
-	<section name="">
-		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
 	</section>
 </section>

@@ -17,7 +17,7 @@ import javax.persistence.criteria.Root;
 import com.rays.exception.DuplicateRecordException;
 
 /**
- * Suraj Sahu
+ * Ankit Singh
  * 
  * @param <T> the type of the DTO that extends BaseDTO
  */

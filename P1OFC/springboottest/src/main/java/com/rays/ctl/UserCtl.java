@@ -41,7 +41,7 @@ import com.rays.service.UserServiceInt;
 /**
  * User Controller handling user-related operations.
  * 
- * Suraj Sahu
+ * Ankit Singh
  */
 @RestController
 @RequestMapping(value = "User")
