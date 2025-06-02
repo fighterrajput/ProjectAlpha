@@ -56,7 +56,7 @@ public class ORSResponse {
 		this.success = success;
 	}
 
-	public Map<String, Object> getResult() {
+	public Map<String, Object> getResult() {	
 		return result;
 	}
 
