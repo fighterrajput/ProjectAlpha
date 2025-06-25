@@ -5182,7 +5182,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Rays Software\Workspace\PROJECT 10 UI\ORSProject10-UI Fctl\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Workspace\project10-workspace\project10\ORSProject10-UI Fctl\src\main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -43,6 +43,10 @@ import { DepartmentComponent } from './department/department.component';
 import { DepartmentlistComponent } from './department/departmentlist.component';
 import { StockanalysisComponent } from './stockanalysis/stockanalysis.component';
 import { StockanalysislistComponent } from './stockanalysis/stockanalysislist.component';
+import { ClientComponent } from './client/client.component';
+import { ClientlistComponent } from './client/clientlist.component';
+import { CustomerComponent } from './customer/customer.component';
+import { CustomerlistComponent } from './customer/customerlist.component';
 
 
 const routes: Routes = [
@@ -312,6 +316,36 @@ const routes: Routes = [
         path: 'stockanalysis/:id',
         component: StockanalysisComponent
       
+    },
+    {
+        path: 'client',
+        component: ClientComponent
+
+    },
+    {
+        path: 'client/:id',
+        component: ClientComponent
+
+    },
+    {
+        path: 'clientlist',
+        component: ClientlistComponent
+
+    },
+        {
+        path: 'customer',
+        component: CustomerComponent
+
+    },
+    {
+        path: 'customer/:id',
+        component: CustomerComponent
+
+    },
+    {
+        path: 'customerlist',
+        component: CustomerlistComponent
+
     }
       
     

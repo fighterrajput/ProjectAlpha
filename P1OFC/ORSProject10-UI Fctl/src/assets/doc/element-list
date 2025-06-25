@@ -10,3 +10,4 @@ com.rays.dto
 com.rays.exception
 com.rays.form
 com.rays.service
+com.rays.validation

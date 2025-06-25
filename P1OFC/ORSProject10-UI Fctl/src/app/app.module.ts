@@ -61,6 +61,11 @@ import { DepartmentComponent } from './department/department.component';
 import { DepartmentlistComponent } from './department/departmentlist.component';
 import { StockanalysisComponent } from './stockanalysis/stockanalysis.component';
 import { StockanalysislistComponent } from './stockanalysis/stockanalysislist.component';
+import { ClientComponent } from './client/client.component';
+import { ClientlistComponent } from './client/clientlist.component';
+import { CustomerComponent } from './customer/customer.component';
+import { CustomerlistComponent } from './customer/customerlist.component';
+
 
 
 
@@ -122,6 +127,11 @@ export function myHttpLoader(http: HttpClient) {
     DepartmentlistComponent,
     StockanalysisComponent,
     StockanalysislistComponent,
+    ClientComponent,
+    ClientlistComponent,
+    CustomerComponent,
+    CustomerlistComponent,
+   
 
   ],
   imports: [

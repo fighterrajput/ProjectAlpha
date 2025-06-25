@@ -25,6 +25,8 @@ export class EndpointServiceService {
   public DEPARTMENT = this.SERVER_URL + "/Department";
   public ITEMINFORMATION = this.SERVER_URL + "/Iteminformation";
   public STOCKANALYSIS = this.SERVER_URL + "/StockAnalysis";
+  public CLIENT = this.SERVER_URL + "/Client";
+  public CUSTOMER = this.SERVER_URL + "/Customer";
 
 
 }
