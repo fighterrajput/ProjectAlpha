@@ -67,6 +67,9 @@ import { CustomerComponent } from './customer/customer.component';
 import { CustomerlistComponent } from './customer/customerlist.component';
 import { OfficeComponent } from './office/office.component';
 import { OfficelistComponent } from './office/officelist.component';
+import { PageNotFoundComponent } from './page-not-found.component';
+import { PhoneComponent } from './phone/phone.component';
+import { PhonelistComponent } from './phone/phonelist.component';
 
 
 
@@ -136,7 +139,9 @@ export function myHttpLoader(http: HttpClient) {
     CustomerlistComponent,
     OfficeComponent,
     OfficelistComponent,
-   
+    PageNotFoundComponent,
+    PhoneComponent,
+    PhonelistComponent,
    
 
   ],

@@ -49,6 +49,9 @@ import { CustomerComponent } from './customer/customer.component';
 import { CustomerlistComponent } from './customer/customerlist.component';
 import { OfficeComponent } from './office/office.component';
 import { OfficelistComponent } from './office/officelist.component';
+import { PhoneComponent } from './phone/phone.component';
+import { PhonelistComponent } from './phone/phonelist.component';
+
 
 
 
@@ -364,7 +367,25 @@ const routes: Routes = [
         path: 'officelist',
         component: OfficelistComponent
 
+    } ,
+
+       
+         {
+        path: 'phone',
+        component: PhoneComponent
+
+    },
+    {
+        path: 'phone/:id',
+        component: PhoneComponent
+
+    },
+    {
+        path: 'phonelist',
+        component: PhonelistComponent
+
     }
+ 
     
       
     

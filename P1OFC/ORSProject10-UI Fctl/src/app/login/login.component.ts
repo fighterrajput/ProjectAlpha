@@ -6,6 +6,7 @@ import { DataValidator } from '../utility/data-validator';
 import { CookieService } from 'ngx-cookie-service';
 import { ActivatedRoute } from '@angular/router';
 import { ServiceLocatorService } from '../service-locator.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-login',
@@ -15,7 +16,10 @@ import { ServiceLocatorService } from '../service-locator.service';
 
 export class LoginComponent implements OnInit {
 
-  endpoint = "http://localhost:8084/Auth";
+  
+
+endpoint = `${environment.apiBaseUrl}/Auth`;
+
 
   form = {
     error: false,
