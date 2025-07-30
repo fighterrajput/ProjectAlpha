@@ -52,7 +52,8 @@ import { OfficelistComponent } from './office/officelist.component';
 import { PhoneComponent } from './phone/phone.component';
 import { PhonelistComponent } from './phone/phonelist.component';
 
-
+import { InstaComponent } from './insta/insta.component';
+import { InstalistComponent } from './insta/instalist.component';
 
 
 const routes: Routes = [
@@ -385,7 +386,24 @@ const routes: Routes = [
         component: PhonelistComponent
 
     }
+ ,
  
+       
+         {
+        path: 'insta',
+        component: InstaComponent
+
+    },
+    {
+        path: 'insta/:id',
+        component: InstaComponent
+
+    },
+    {
+        path: 'instalist',
+        component: InstalistComponent
+
+    }
     
       
     

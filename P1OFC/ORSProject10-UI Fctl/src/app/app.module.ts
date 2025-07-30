@@ -70,6 +70,9 @@ import { OfficelistComponent } from './office/officelist.component';
 import { PageNotFoundComponent } from './page-not-found.component';
 import { PhoneComponent } from './phone/phone.component';
 import { PhonelistComponent } from './phone/phonelist.component';
+import { InstaComponent } from './insta/insta.component';
+import { InstalistComponent } from './insta/instalist.component';
+
 
 
 
@@ -142,6 +145,9 @@ export function myHttpLoader(http: HttpClient) {
     PageNotFoundComponent,
     PhoneComponent,
     PhonelistComponent,
+    InstaComponent,
+    InstalistComponent,
+   
    
 
   ],

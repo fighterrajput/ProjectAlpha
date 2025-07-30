@@ -217,6 +217,18 @@ color: rgb(235, 6, 6);
           </a>
         </div>
       </li>
+
+       <li class="nav-item dropdown" style="padding-left: 5px"><a class="nav-link dropdown-toggle" [routerLink]="['/#']"
+          id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white;">{{'Instgram' | translate}}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/insta']"><i class="fa fa-calculator"></i> &nbsp; {{'Add User' |
+            translate}}</a> <a class="dropdown-item" [routerLink]="['/instalist']"> <i class="fa fa-list"></i> &nbsp; {{'Instagram User
+            List' | translate}}
+          </a>
+        </div>
+      </li>
       
        <li class="nav-item dropdown" style="padding-left: 5px"><a class="nav-link dropdown-toggle" [routerLink]="['/#']"
           id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
