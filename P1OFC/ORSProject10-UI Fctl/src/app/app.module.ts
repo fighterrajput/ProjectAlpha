@@ -67,6 +67,14 @@ import { CustomerComponent } from './customer/customer.component';
 import { CustomerlistComponent } from './customer/customerlist.component';
 import { OfficeComponent } from './office/office.component';
 import { OfficelistComponent } from './office/officelist.component';
+import { PageNotFoundComponent } from './page-not-found.component';
+import { PhoneComponent } from './phone/phone.component';
+import { PhonelistComponent } from './phone/phonelist.component';
+import { InstaComponent } from './insta/insta.component';
+import { InstalistComponent } from './insta/instalist.component';
+import { StoreComponent } from './store/store.component';
+import { StorelistComponent } from './store/storelist.component';
+
 
 
 
@@ -136,6 +144,13 @@ export function myHttpLoader(http: HttpClient) {
     CustomerlistComponent,
     OfficeComponent,
     OfficelistComponent,
+    PageNotFoundComponent,
+    PhoneComponent,
+    PhonelistComponent,
+    InstaComponent,
+    InstalistComponent,
+    StoreComponent,
+    StorelistComponent,
    
    
 

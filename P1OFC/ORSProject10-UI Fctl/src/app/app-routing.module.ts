@@ -49,7 +49,13 @@ import { CustomerComponent } from './customer/customer.component';
 import { CustomerlistComponent } from './customer/customerlist.component';
 import { OfficeComponent } from './office/office.component';
 import { OfficelistComponent } from './office/officelist.component';
+import { PhoneComponent } from './phone/phone.component';
+import { PhonelistComponent } from './phone/phonelist.component';
 
+import { InstaComponent } from './insta/insta.component';
+import { InstalistComponent } from './insta/instalist.component';
+import { StoreComponent } from './store/store.component';
+import { StorelistComponent } from './store/storelist.component';
 
 
 const routes: Routes = [
@@ -363,6 +369,70 @@ const routes: Routes = [
     {
         path: 'officelist',
         component: OfficelistComponent
+
+    } ,
+
+       
+         {
+        path: 'phone',
+        component: PhoneComponent
+
+    },
+    {
+        path: 'phone/:id',
+        component: PhoneComponent
+
+    },
+    {
+        path: 'phonelist',
+        component: PhonelistComponent
+
+    }
+ ,
+ 
+       
+         {
+        path: 'insta',
+        component: InstaComponent
+
+    },
+    {
+        path: 'insta/:id',
+        component: InstaComponent
+
+    },
+    {
+        path: 'instalist',
+        component: InstalistComponent
+
+    }
+    ,
+     {
+        path: 'phone/:id',
+        component: PhoneComponent
+
+    },
+    {
+        path: 'phonelist',
+        component: PhonelistComponent
+
+    }
+ ,
+ 
+       
+         {
+        path: 'store',
+        component: StoreComponent
+
+    },
+    {
+        path: 'store/:id',
+        component: StoreComponent
+
+    },
+    {
+        path: 'storelist',
+        component: StorelistComponent
 
     }
     

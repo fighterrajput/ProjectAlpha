@@ -28,8 +28,8 @@ export class EndpointServiceService {
   public CLIENT = this.SERVER_URL + "/Client";
   public CUSTOMER = this.SERVER_URL + "/Customer";
   public OFFICE = this.SERVER_URL + "/Office";
-
-  
-
+ public PHONE = this.SERVER_URL + "/Phone";
+  public INSTA = this.SERVER_URL + "/Insta";
+public STORE = this.SERVER_URL + "/Store";
 
 }
